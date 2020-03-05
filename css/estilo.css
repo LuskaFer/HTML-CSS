@@ -1,0 +1,18 @@
+/* MEU PRIMEIRO CSS FODASE PRA MIN */
+
+h2{
+  color:#FFD700;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+h1{
+  text-align: center;
+}
+#container{
+background-color:#1a1b1f;
+color:#adafbc;
+margin-left:20%;
+margin-right:20%;
+height:600px;
+}
