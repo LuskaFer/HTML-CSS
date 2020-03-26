@@ -1,18 +1,86 @@
 /* MEU PRIMEIRO CSS FODASE PRA MIN */
 
-h2{
-  color:#FFD700;
-  font-weight: bold;
-  letter-spacing: 1px;
+/* Adicionando arquivo de fonte local */
+
+
+@font-face {
+    font-family:Honey Bear;
+    src: local(Honey Bear),url(../fontes/Honey-Bear.ttf);
 }
 
-h1{
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+
 #container{
 background-color:#1a1b1f;
 color:#adafbc;
 margin-left:20%;
 margin-right:20%;
-height:600px;
+height:100%;
+}
+
+nav{
+  background-color: #716868;
+  padding:0.02% 0 0.02% 0;
+  border-radius:15px;
+
+}
+
+
+#menu-vert li{
+  display: inline;
+  padding: 0 4% 0 4%;
+
+}
+
+
+#menu-vert li a{
+  text-decoration: none;
+  font-family: "Tahoma",serif;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+  transition:color 2s;
+  padding: 2.05%;
+}
+
+
+/*PSEUDO CLASSES */
+
+#menu-vert li a:VISITED{
+  color:#fff;
+
+}
+
+#menu-vert li a:LINK{
+  color:#fff;
+
+}
+
+#menu-vert li a:HOVER{
+  color:#1a1b1f;
+  background-color: #fff;
+
+}
+
+/* SELEÇÃO DE CLASSES */
+
+.tit-pag-init{
+
+/*  font-family: 'Honey Bear', serif; */
+  font-family: 'Lobster', cursive;
+  position: relative;
+  text-align: center;
+
+
+}
+
+.img_logo_init{
+  position: relative;
+  top:10%;
+  width:10%;
+
+
+
 }
